@@ -3,7 +3,7 @@ const St = imports.gi.St;
 const Main = imports.ui.main;
 const Tweener = imports.ui.tweener;
 
-let text, button;
+let button;
 
 function _change() {
 
@@ -27,7 +27,7 @@ function init() {
 }
 
 function enable() {
-    Main.panel._rightBox.insert_child_at_index(button, 0);
+    Main.panel._rightBox.insert_child_at_index(button, 1);
 }
 
 function disable() {
