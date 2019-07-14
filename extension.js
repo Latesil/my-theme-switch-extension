@@ -1,6 +1,8 @@
 const Util = imports.misc.util;
 const St = imports.gi.St;
 const Main = imports.ui.main;
+const PanelMenu = imports.ui.panelMenu;
+const PopupMenu = imports.ui.popupMenu;
 const Tweener = imports.ui.tweener;
 
 let button;
@@ -18,7 +20,7 @@ function init() {
                           x_fill: true,
                           y_fill: false,
                           track_hover: true });
-    let icon = new St.Icon({ icon_name: 'system-run-symbolic',
+    let icon = new St.Icon({ icon_name: 'preferences-desktop-screensaver-symbolic',
                              style_class: 'system-status-icon' });
 
                              
